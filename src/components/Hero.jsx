@@ -18,19 +18,19 @@ const Hero = () => {
       <div className="container mb-2">
         <div className="row align-items-center">
           <div className="col-md-12 col-lg-6">
-            <div className="hero-slider-content text-white pt-5">
+            <div className="hero-slider-content text-white pt-5 ">
               <strong>16th - 17th January 2024 </strong>
-              <h1 className="text-white mb-0 color-og-1">Viz-A-Thon 2.0</h1>
-              <span>
+              <h1 className="mb-0 color-og-2">Viz-A-Thon 2.0</h1>
+              <span className="color-og-2">
                 Event sponsered by &ensp;
                 <strong style={{ fontSize: "18px" }}>
-                  <a href="https://www.einfochips.com/" target="_blank">
+                  <a href="https://www.imfs.co.in/" target="_blank" className="color-og-2">
                     IMFS
                   </a>
                 </strong>
               </span>
 
-              <p className="lead mt-4">
+              <p className="lead mt-4 ">
                 Get your creative hats on and join us on this incredible ride to
                 build something out of the box.
               </p>

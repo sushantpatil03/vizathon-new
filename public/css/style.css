@@ -922,6 +922,7 @@ select.form-control.has-value {
 .menu li a:hover,
 .menu li:hover > a {
   opacity: 1;
+  color: #F07900 !important;
 }
 
 .menu ul {
