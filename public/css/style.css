@@ -411,6 +411,16 @@ b {
   color: #D35100;
 }
 
+.color-og-1{
+  color: #F8A145 !important;
+}
+.color-og-2{
+  color: #F07900 !important;
+}
+.color-og-3{
+  color: #D35100 !important;
+}
+
 .gradient-bg {
   background: linear-gradient(75deg, #130c2e 20%, #1b5afb) !important;
   /* background: linear-gradient(75deg, #130c2e 20%, #151515) !important; */

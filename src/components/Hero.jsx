@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="col-md-12 col-lg-6">
             <div className="hero-slider-content text-white pt-5">
               <strong>16th - 17th January 2024 </strong>
-              <h1 className="text-white mb-0">Viz-A-Thon 2.0</h1>
+              <h1 className="text-white mb-0 color-og-1">Viz-A-Thon 2.0</h1>
               <span>
                 Event sponsered by &ensp;
                 <strong style={{ fontSize: "18px" }}>

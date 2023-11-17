@@ -16,7 +16,7 @@ const Header = () => {
             >
               <img
                 
-                src="img/AISA-LOGO.png"
+                src="img/aisa-full-crop.jpeg"
                 alt="logo"
                 className="img-fluid logoo"
               />
