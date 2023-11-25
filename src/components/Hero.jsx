@@ -81,7 +81,7 @@
 
 import React from "react";
 import "./hero.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Hero = () => {
   React.useEffect(() => {

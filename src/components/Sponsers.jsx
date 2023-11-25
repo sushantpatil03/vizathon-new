@@ -26,8 +26,8 @@ const Sponsers = () => {
                 <img
                   src="img/sponsors/imfs.png"
                   style={{
-                    height: "50px",
-                    width: "160px",
+                    height: "75px",
+                    width: "240px",
                     margin: "30px 50px",
                     borderBottom: "0px",
                   }}
@@ -38,7 +38,7 @@ const Sponsers = () => {
           </div>
         </div>
 
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-md-12 col-lg-12">
             <div className="section-heading text-center">
               <h3 className="color-secondary" style={{ marginTop: "20px" }}>
@@ -243,7 +243,7 @@ const Sponsers = () => {
             </div>
             <hr />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

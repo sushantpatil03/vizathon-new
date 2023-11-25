@@ -7,6 +7,7 @@ import Loader from "./components/Loader";
 import ParticipationCertification from "./components/ParticipationCertification";
 import Prizes from "./components/Prizes";
 import Query from "./components/Query/Query";
+import Rules from "./components/Rules";
 import Schedule from "./components/Schedule";
 import SpeakersAndJudges from "./components/SpeakersAndJudges";
 import Sponsers from "./components/Sponsers";
@@ -25,7 +26,7 @@ function App() {
         <Hero />
         <About />
         <Schedule />
-        {/* <Prizes /> */}
+        <Rules />
         {/* <SponsersPrizes /> */}
         <ParticipationCertification />
         <Sponsers />

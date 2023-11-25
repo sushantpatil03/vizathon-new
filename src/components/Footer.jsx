@@ -253,9 +253,9 @@ const Footer = () => {
                       </li>
                       <li className="d-flex align-items-center py-2">
                         <span className="fas fa-envelope mr-2"></span>{" "}
-                        <a href="mailto:gdsc@ddu.ac.in">
+                        <a href="mailto:aisa@viit.ac.in">
                           {" "}
-                          gdsc@ddu.ac.in{" "}
+                          aisa@viit.ac.in{" "}
                         </a>
                       </li>
                     </ul>
@@ -263,7 +263,7 @@ const Footer = () => {
                       <ul className="list-unstyled social-list mb-0">
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://discord.gg/cvHPEK7U3v"
+                            href="https://discord.gg/"
                             target="_blank"
                             className="rounded"
                           >
@@ -273,7 +273,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://twitter.com/DuHacks?t=CPjNJmQX1JxhIHb_YI0Tuw&s=09"
+                            href="https://twitter.com/"
                             target="_blank"
                             className="rounded"
                           >
@@ -283,7 +283,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://www.linkedin.com/company/duhacks/"
+                            href="https://www.linkedin.com/company/"
                             target="_blank"
                             className="rounded"
                           >
@@ -293,7 +293,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://www.youtube.com/channel/UCT-t1QVYACjROrnpJKhxX1Q"
+                            href="https://www.youtube.com/"
                             target="_blank"
                             className="rounded"
                           >
@@ -303,7 +303,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://instagram.com/duhacks2022?igshid=YmMyMTA2M2Y="
+                            href="https://instagram.com/"
                             target="_blank"
                             className="rounded"
                           >

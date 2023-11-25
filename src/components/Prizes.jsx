@@ -61,7 +61,7 @@ const Prizes = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4">
+          {/* <div className="col-md-6 col-lg-4">
             <div className="promo-single-wrap mt-3 p-4 text-center custom-shadow rounded">
               <div className="promo-info">
                 <h4 className="pb-4">Second Prize</h4>
@@ -191,8 +191,8 @@ const Prizes = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 col-lg-4">
+          </div> */}
+          {/* <div className="col-md-6 col-lg-4">
             <div className="promo-single-wrap mt-3 p-4 text-center custom-shadow rounded">
               <div className="promo-info">
                 <h4 className="pb-4">Best Innovation</h4>
@@ -286,7 +286,7 @@ const Prizes = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
