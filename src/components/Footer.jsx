@@ -182,7 +182,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer-section">
-      <div className="footer-top gradient-bg">
+      <div className="footer-top gradient1-bg">
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-9">
@@ -197,7 +197,7 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3 col-sm-6">
                   <div className="footer-nav-wrap text-white">
-                    <h4 className="text-white"> Useful Links </h4>
+                    <h4 style={{ background: 'linear-gradient(to top, #fba145 10%, #ffffff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className="text-white"> Useful Links </h4>
                     <ul className="nav flex-column">
                       <li className="nav-item">
                         <a className="nav-link" href="#challenges">
@@ -241,7 +241,7 @@ const Footer = () => {
               <div className="row footer-top-wrap mt-md-4 mt-sm-0 mt-lg-0">
                 <div className="col-12">
                   <div className="footer-nav-wrap text-white">
-                    <h4 className="text-white">GET IN TOUCH</h4>
+                  <h4 style={{ background: 'linear-gradient(to top, #fba145 10%, #ffffff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className="text-white">GET IN TOUCH</h4>
                     <ul className="get-in-touch-list">
                       <li className="d-flex align-items-center py-2">
                         <span className="fab fa-discord mr-2"></span>

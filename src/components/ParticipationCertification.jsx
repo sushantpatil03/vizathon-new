@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ParticipationCertification = () => {
+  const [isExplosion, setExplosion] = useState(false);
+
+  const handleCertificateClick = () => {
+    setExplosion(true);
+    // You can add any additional logic here if needed
+  };
+
   return (
     <section className="promo-section ">
       <div className="container">
@@ -16,8 +23,8 @@ const ParticipationCertification = () => {
         <div className="row ">
           <div className="col-2"></div>
           <div className="col-8">
-            <div className="support-cta  mt-5 text-center">
-              <h5 className="mb-1 text-center">
+            <div className={`support-cta mt-5 text-center ${isExplosion ? "explosion-animation" : ""}`}>
+              <h5 className="mb-1 text-center" onClick={handleCertificateClick}>
                 <span className="color-secondary">
                   <i className="fa-solid fa-bolt"></i>
                 </span>{" "}
@@ -29,17 +36,12 @@ const ParticipationCertification = () => {
               <div className="col-md-12 col-lg-12">
                 <ul className="list-unstyled tech-feature-list">
                   <li className="py-1">
-                    {/* <span className="mr-2 color-secondary">
-                      <i class="fa-solid fa-location-arrow"></i>
-                    </span> */}
-                    Even if you are not able to win any awards no problems, we
-                    will be offering Participation certificates to the teams
-                    submitting solutions.
+                    Even if you are not able to win any awards, no problems, we will be offering Participation certificates to the teams submitting solutions.
                   </li>
                 </ul>
               </div>
               <br />
-              <h5 className="mb-1 text-center">
+              <h5 className="mb-1 text-center" onClick={handleCertificateClick}>
                 <span className="color-secondary">
                   <i className="fa-solid fa-bolt"></i>
                 </span>{" "}
@@ -51,10 +53,7 @@ const ParticipationCertification = () => {
               <div className="col-md-12 col-lg-12">
                 <ul className="list-unstyled tech-feature-list">
                   <li className="py-1">
-                    {/* <span className="mr-2 color-secondary">
-                      <i class="fa-solid fa-location-arrow"></i>
-                    </span> */}
-                    All winners will be given a special certificates.
+                    All winners will be given a special certificate.
                   </li>
                 </ul>
               </div>
