@@ -58,11 +58,11 @@ const About = () => {
               </div>
               <div className="action-btns mt-4">
                 <a
-                  href="https://discord.gg/cvHPEK7U3v"
+                  href="https://learner.vierp.in/events"
                   className="btn secondary-outline-btn"
                   target="_blank"
                 >
-                  Join Discord Channel
+                  Register Now !
                 </a>
               </div>
             </div>

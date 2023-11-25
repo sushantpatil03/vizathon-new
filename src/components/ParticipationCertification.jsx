@@ -2,7 +2,7 @@ import React from "react";
 
 const ParticipationCertification = () => {
   return (
-    <section className="promo-section ptb-100">
+    <section className="promo-section ">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-9">

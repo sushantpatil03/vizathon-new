@@ -55,7 +55,7 @@ const FAQS = () => {
     }
 }, []);
   return (
-    <section className="promo-section ptb-100" id="faq">
+    <section className="promo-section" id="faq">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-9 col-lg-8">
@@ -275,7 +275,7 @@ const FAQS = () => {
           </div>
         </div> */}
         <br/><br/><br/>
-        <div className="row justify-content-center">
+        {/* <div className="row justify-content-center">
           <div className="col-md-9 col-lg-8">
             <div className="section-heading mb-3 text-center">
               <div
@@ -286,7 +286,7 @@ const FAQS = () => {
                 ></div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
