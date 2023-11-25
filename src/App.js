@@ -24,7 +24,6 @@ function App() {
       <div className="main">
         <Hero />
         <About />
-        {/* <Themes /> */}
         <Schedule />
         {/* <Prizes /> */}
         {/* <SponsersPrizes /> */}

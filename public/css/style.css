@@ -1183,9 +1183,23 @@ select.form-control.has-value {
   }
 }
 
+
+
+/*=========================================
+            05. RULES SECTION CSS
+============================================*/
+
+.rule{
+    font-weight: 100;
+}
+
+
 /*=========================================
             05. HERO SECTION CSS
 ============================================*/
+
+
+
 .hero-equal-height {
   position: relative;
   min-height: 700px;
@@ -1250,6 +1264,7 @@ select.form-control.has-value {
   line-height: initial;
   font-weight: 700;
 }
+
 
 .slider-bg-image,
 .gradient-overlay {

@@ -22,9 +22,9 @@ const Sponsers = () => {
                 Event Sponsor{" "}
               </h3>
 
-              <a href="https://www.einfochips.com/" target="_BLANK">
+              <a href="https://www.imfs.co.in/" target="_BLANK">
                 <img
-                  src="img/sponsors/einfo.png"
+                  src="img/sponsors/imfs.png"
                   style={{
                     height: "50px",
                     width: "160px",
