@@ -436,7 +436,8 @@ html {
     /* background: #161616; */
     /* background: #121217; */
     /* background: #001440; */
-    background: black;
+    background: transparent;
+    background: #181818;
     /* background: #181b7a; */
     /* background: #5f3ec7; */
   }

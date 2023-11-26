@@ -44,7 +44,7 @@ const Rules = () => {
 
     {/* <section id="prizes" className="promo-section ptb-100"> */}
     
-    <section id="prizes" className="promo-section ptb-100">
+    <section id="prizes" className="promo-section ptb-70">
       <div className="container">
       <div className="row justify-content-center">
           <div className="col-md-8 col-lg-8">
@@ -61,7 +61,7 @@ const Rules = () => {
           <div className="">
             <div className="promo-single-wrap mt-3 p-4 text-center custom-shadow rounded">
               <div className="promo-info">
-                <h4 className="pb-4">Mandatory Rules</h4>
+                <h4 className="pb-4 color-og-2">Mandatory Rules</h4>
                 <p>
                   <span className="color-secondary">
                     <i className="fa-solid fa-bolt"></i>
