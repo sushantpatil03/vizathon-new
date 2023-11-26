@@ -56,15 +56,17 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div className="action-btns mt-4">
-                <a
-                  href="https://learner.vierp.in/events"
-                  className="btn secondary-outline-btn"
-                  target="_blank"
-                >
-                  Register Now !
-                </a>
-              </div>
+              <center>
+                  <div className="action-btns mt-4">
+                    <a
+                      href="https://learner.vierp.in/events"
+                      className="btn secondary-outline-btn"
+                      target="_blank"
+                    >
+                      Register Now !
+                    </a>
+                  </div>
+              </center>
             </div>
           </div>
         </div>

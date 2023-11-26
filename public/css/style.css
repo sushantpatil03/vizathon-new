@@ -258,8 +258,8 @@ html {
     color: whitesmoke !important;
   }
   
-  
-  body {
+  body
+   {
     /* background-color: rgb(24, 26, 27); */
     /* background-color: #161616; */
     /* background: #121217; */
@@ -274,6 +274,8 @@ html {
     font-weight: 400;
     line-height: 1.75;
   }
+ 
+  
   
   p:not(:last-child) {
     margin-bottom: 1.25em;
@@ -426,9 +428,24 @@ html {
   }
   
   .gradient-bg {
-    background: linear-gradient(to top, #30180f 20% , #D35100 80%,#fb6c45 90%) !important;
+    background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
     /* background: linear-gradient(75deg, #130c2e 20%, #151515) !important; */
     /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
+  }
+  .gradient1-bg{
+    color: #f0e800 ;
+  }
+  .gradient-bg {
+    background: linear-gradient(to top, #30180f 10%, #D35100 90%, #fb6c45 90%) !important;
+    /* Original gradient */
+  
+    /* Responsive styles for smaller screens (up to 768px) */
+    @media only screen and (max-width: 480px) {
+      .gradient-bg {
+        background: linear-gradient(to top, #30180f 10%, #D35100 70%, #fb6c45 90%) !important;
+        /* Adjusted gradient for smaller screens */
+      }
+    }
   }
   
   .white-bg {
@@ -878,7 +895,7 @@ html {
   }
   
   .bg-transparent.affix {
-    background: linear-gradient(75deg, #65258a 10%, #e80566) !important;
+    background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
   }
   
   .navbar-toggler {
@@ -1064,7 +1081,7 @@ html {
   
   @media (min-width: 320px) and (max-width: 992px) {
     .navbar {
-      background: linear-gradient(75deg, #65258a 10%, #e80566) !important;
+      background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
       padding: 0.45rem 1rem !important;
     }
     /* .menu li {
@@ -1072,7 +1089,7 @@ html {
     } */
   
     .gradient-bg {
-      background: linear-gradient(60deg, #130c2e 55%, #f07900) !important;
+      background: linear-gradient(to top, #30180f 20% , #D35100 90%,#fb6c45 90%) !important;
       /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
     }
   
@@ -5672,3 +5689,69 @@ html {
     color: white ;
     /* Add other styles as needed */
   }
+  .hero-slider-content-container {
+    text-align: center;
+    color: white;
+  }
+  
+  /* Base styles */
+  .hero-slider-content-container strong {
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a subtle white glow */
+  }
+  
+  .hero-slider-content-container h1 {
+    font-size: 80px;
+    -webkit-text-stroke: 1px whitesmoke;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Add a more pronounced white glow */
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .hero-slider-content-container strong {
+      font-size: 78px;
+    }
+  
+    .hero-slider-content-container h1 {
+      font-size: 70px;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.6); /* Adjust glow for responsiveness */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .hero-slider-content-container strong {
+      font-size: 50px;
+    }
+  
+    .hero-slider-content-container h1 {
+      font-size: 50px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Adjust glow for smaller screens */
+    }
+  }
+    
+
+
+  
+  .img-container {
+    display: inline-block;
+    
+  }
+  
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid white;
+    width: 180px;
+    margin-top: 50px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Adjust glow intensity */
+  }
+  .footer-top {
+    background: linear-gradient(to bottom, #30191f 2% ,#30180f 2% , #472317) !important;}
+   
+   .action-btns mt-4{
+    left:50%;
+
+   }
+   /* style.css */
+

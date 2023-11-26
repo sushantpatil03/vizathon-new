@@ -102,27 +102,21 @@ const Hero = () => {
   justifyContent: "center", /* Horizontal alignment */
   alignItems: "center", /* Vertical alignment */
 }}>
+  <div class="img-container">
   <img
     src="img/vizlogov1.png"
-    style={{
-      maxWidth: "100%", /* Ensure the image doesn't exceed its container width */
-      height: "auto", /* Maintain aspect ratio */
-      margin: "20px", /* Adjust margin for responsiveness */
-      borderBottom: "0px",
-      width:"300px",
-      border:"1px solid white",
-      marginTop:"50px"
-    }}
+    alt="Viz Logo"
   />
+  </div>
 </div>
   <div className="hero-slider-content-container text-center text-white">
-    <strong style={{fontSize: "20px"}}>16th - 18th January 2024 </strong>
+    <strong style={{fontSize: "18px"}}>16th - 18th January 2024 </strong>
     <h1 className="mb-0 color-og-2" style={{ WebkitTextStroke: "1px whitesmoke" }}>
   Viz-A-Thon 2.0
 </h1>
     <span style={{ fontSize: "20px"}}>
   Event sponsored by &ensp;
-  <strong style={{ fontSize: "30px" }}>
+  <strong style={{ fontSize: "25px" }}>
     <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white" }}>
       IMFS
     </a>
