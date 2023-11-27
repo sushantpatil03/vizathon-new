@@ -5613,7 +5613,8 @@ html {
     background-color: #1a1235;
     border-radius: 15px !important;
     border-left: 2px solid #D35100 !important;
-    height: 365px;
+    height: 365px
+    ;
     overflow: scroll;
   }
   
