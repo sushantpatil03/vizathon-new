@@ -95,7 +95,7 @@ const Header = () => {
           className="navbar navbar-expand-md fixed-top white-bg" >
           <div className="container custom-container">
             <a
-              style={{ width: "30%" }}
+              style={{ width: "38%" }}
               className="navbar-brand"
               href="https://aisa-viit.com"
             >

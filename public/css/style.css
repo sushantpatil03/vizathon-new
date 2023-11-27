@@ -2426,6 +2426,7 @@ html {
     background: #1a1235;
     overflow: scroll;
     height: 250px;
+    /* height: 365px; */
     padding: 5px;
     border-radius: 15px !important;
     border-left: 2px solid #0073ec !important;
@@ -5612,7 +5613,7 @@ html {
     background-color: #1a1235;
     border-radius: 15px !important;
     border-left: 2px solid #D35100 !important;
-    height: 250px;
+    height: 365px;
     overflow: scroll;
   }
   
