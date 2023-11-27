@@ -110,7 +110,7 @@ const Hero = () => {
   </div>
 </div>
   <div className="hero-slider-content-container text-center text-white">
-    <strong style={{fontSize: "18px"}}>16th - 18th January 2024 </strong>
+    <strong style={{fontSize: "18px"}}>16th - 19th January 2024 </strong>
     <h1 className="mb-0 color-og-2" style={{ WebkitTextStroke: "1px whitesmoke" }}>
   Viz-A-Thon 2.0
 </h1>
