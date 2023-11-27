@@ -97,7 +97,7 @@ const Header = () => {
             <a
               style={{ width: "30%" }}
               className="navbar-brand"
-              href="#header-top-bar"
+              href="https://aisa-viit.com"
             >
               <img
                 
@@ -129,13 +129,13 @@ const Header = () => {
             >
               <ul className="navbar-nav ml-auto menu">
                 <li>
+                  <a href="#about-viz"> About </a>
+                </li>
+                <li>
                   <a href="#schedule">Schedule </a>
                 </li>
                 <li>
-                  <a href="#challenges"> Contact </a>
-                </li>
-                <li>
-                  <a href="#prizes"> Prizes </a>
+                  <a href="#viz-rules"> Rules </a>
                 </li>
                 <li>
                   <a href="#sponsers">Sponsors</a>

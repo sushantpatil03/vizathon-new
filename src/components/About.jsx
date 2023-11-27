@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="about-us-section ptb-100 gray-light-bg" id="why">
+    <section className="about-us-section ptb-100 gray-light-bg" id="about-viz">
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6">
@@ -63,7 +63,7 @@ const About = () => {
                       className="btn secondary-outline-btn"
                       target="_blank"
                     >
-                      Register Now !
+                      Click here to Register →
                     </a>
                   </div>
               </center>

@@ -189,10 +189,10 @@ const Footer = () => {
               <div className="row footer-top-wrap">
                 <div className="col-md-4 col-sm-6">
                   <div className="footer-nav-wrap text-white">
-                    <p>VIZ-A-THON 2.0, Organized By AISA</p>
-                    {/* <a href="https://dscddu.com/">
-                      <img src="img/dsc.png" width="80%" />
-                    </a> */}
+                    <p>VIZ-A-THON 2.0, Organized By</p>
+                    <a href="https://aisa-viit.com/">
+                      <img src="img/AISA-DARK.png" width="50%" />
+                    </a>
                   </div>
                 </div>
                 <div className="col-md-3 col-sm-6">
@@ -245,7 +245,7 @@ const Footer = () => {
                     <ul className="get-in-touch-list">
                       <li className="d-flex align-items-center py-2">
                         <span className="fab fa-discord mr-2"></span>
-                        <a href="https://discord.gg/cvHPEK7U3v">
+                        <a href="https://discord.gg/">
                           {" "}
                           Discord Channel{" "}
                         </a>
@@ -273,7 +273,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://twitter.com/"
+                            href="https://twitter.com/aisa_viit"
                             target="_blank"
                             className="rounded"
                           >
@@ -283,7 +283,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://www.linkedin.com/company/"
+                            href="https://www.linkedin.com/company/aisaviit/"
                             target="_blank"
                             className="rounded"
                           >
@@ -293,7 +293,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://www.youtube.com/"
+                            href="https://www.youtube.com/@aisa_viit"
                             target="_blank"
                             className="rounded"
                           >
@@ -303,7 +303,7 @@ const Footer = () => {
                         </li>
                         <li className="list-inline-item tooltip-hover">
                           <a
-                            href="https://instagram.com/"
+                            href="https://www.instagram.com/aisa_viit/"
                             target="_blank"
                             className="rounded"
                           >
@@ -326,10 +326,10 @@ const Footer = () => {
             <div className="col-md-5 col-lg-5">
               <p className="copyright-text pb-0 mb-0">
                 Copyrights © 2023. All rights reserved by &nbsp;
-                <a href="https://duhacks.tech/">VIZ-A-THON 2.0</a>
+                <a href="https://aisa-viit.com/">AISA VIIT</a>
               </p>
             </div>
-            <div className="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
+            {/* <div className="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
               <ul className="list-inline policy-nav text-right social-list">
                 <li className="list-inline-item">
                   <a href="https://devfolio.co/code-of-conduct" target="_blank">
@@ -337,7 +337,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -47,7 +47,10 @@
    License: none (public domain)
 */
 
-
+@font-face {
+  font-family: "viz-font";
+  src: url("font/conthrax-sb.otf")
+}
 
 html {
     scroll-behavior: smooth;
@@ -413,6 +416,10 @@ html {
   .color-secondary {
     color: #f07900;
     color: #D35100;
+  }
+
+  .viz-font{
+    font-family: viz-font !important;
   }
   
   .color-og-1{

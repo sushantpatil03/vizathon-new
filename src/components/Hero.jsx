@@ -118,7 +118,7 @@ const Hero = () => {
   Event sponsored by &ensp;
   <strong style={{ fontSize: "25px" }}>
     <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white" }}>
-      IMFS
+      <img src="img/sponsors/imfs.png" width="50%" />    
     </a>
   </strong>
 </span>
@@ -132,7 +132,7 @@ const Hero = () => {
                   className="btn secondary-outline-btn"
                   target="_blank"
                 >
-                  Click here to Register
+                  Click here to Register →
                 </a>
               </div>
   </div>

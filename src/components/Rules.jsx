@@ -44,7 +44,7 @@ const Rules = () => {
 
     {/* <section id="prizes" className="promo-section ptb-100"> */}
     
-    <section id="prizes" className="promo-section ptb-70">
+    <section id="viz-rules" className="promo-section ptb-70">
       <div className="container">
       <div className="row justify-content-center">
           <div className="col-md-8 col-lg-8">
