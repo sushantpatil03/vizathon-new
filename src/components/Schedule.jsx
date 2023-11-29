@@ -44,13 +44,13 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>10th Jan</strong>
+                      <strong>18 Dec</strong>
                       <h6>10:00 PM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
                     <h5>Registration Ends</h5>
-                    <p>We'll review your appication and will let you know. </p>
+                    <p>You will be provided with the schedule soon. </p>
                   </div>
                 </div>
                 <div className="process-line-r"></div>
