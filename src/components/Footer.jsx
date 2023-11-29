@@ -200,9 +200,9 @@ const Footer = () => {
                     <h4 style={{ background: 'linear-gradient(to top, #fba145 10%, #ffffff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className="text-white"> Useful Links </h4>
                     <ul className="nav flex-column">
                       <li className="nav-item">
-                        <a className="nav-link" href="#challenges">
+                        <a className="nav-link" href="#about-viz">
                           {" "}
-                          Themes{" "}
+                          About{" "}
                         </a>
                       </li>
                       <li className="nav-item">
@@ -212,15 +212,15 @@ const Footer = () => {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#faq">
+                        <a className="nav-link" href="#viz-rules">
                           {" "}
-                          FAQ's
+                          Rules{" "}
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#speakersAndJudges">
+                        <a className="nav-link" href="#faq">
                           {" "}
-                          Speakers{" "}
+                          FAQ's
                         </a>
                       </li>
                     </ul>
@@ -243,14 +243,14 @@ const Footer = () => {
                   <div className="footer-nav-wrap text-white">
                   <h4 style={{ background: 'linear-gradient(to top, #fba145 10%, #ffffff 90%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }} className="text-white">GET IN TOUCH</h4>
                     <ul className="get-in-touch-list">
-                      <li className="d-flex align-items-center py-2">
+                      {/* <li className="d-flex align-items-center py-2">
                         <span className="fab fa-discord mr-2"></span>
                         <a href="https://discord.gg/">
                           {" "}
                           Discord Channel{" "}
                         </a>
                         <br />
-                      </li>
+                      </li> */}
                       <li className="d-flex align-items-center py-2">
                         <span className="fas fa-envelope mr-2"></span>{" "}
                         <a href="mailto:aisa@viit.ac.in">
@@ -261,7 +261,7 @@ const Footer = () => {
                     </ul>
                     <div className="social-nav mt-4">
                       <ul className="list-unstyled social-list mb-0">
-                        <li className="list-inline-item tooltip-hover">
+                        {/* <li className="list-inline-item tooltip-hover">
                           <a
                             href="https://discord.gg/"
                             target="_blank"
@@ -270,7 +270,7 @@ const Footer = () => {
                             <span className="fab fa-discord"></span>
                           </a>
                           <div className="tooltip-item">Discord</div>
-                        </li>
+                        </li> */}
                         <li className="list-inline-item tooltip-hover">
                           <a
                             href="https://twitter.com/aisa_viit"

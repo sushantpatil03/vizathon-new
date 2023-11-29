@@ -16,8 +16,8 @@ const data = {
     },
 
     {
-      title:"I am first time hacker, what should I do?",
-      content:"No worries, we love to welcome first-time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathons and hacking in general. Join our discord server for more details."
+      title:"I am new to vizathon, what should i do?",
+      content:"No worries! We're thrilled to have you at Vizathon. Dive into the data excitement. Our event is best to start your journey. Contact us for more guidance and details."
     },
 
     {

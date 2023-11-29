@@ -74,7 +74,7 @@ const Schedule = () => {
                   <div className="col-md-7">
                     <h5>Viz-A-Thon Starts 🥳</h5>
                     <p>
-                    Participants have to create meaningful visualisations using given dataset <br />{" "}
+                    Create meaningful visualizations with given datasets. <br />{" "}
                     </p>
                     {/* <p>
                       You can start working on datasets after
@@ -97,7 +97,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Evaluation round 1</h5>
+                    <h5>Evaluation Round 1</h5>
                     <p>8 teams will be shortlisted based on evaluation round 1.&emsp;&emsp;</p>
                     {/* <h5>Submit Final Work</h5>
                     <p>Team leader should submit the insights on Devfolio.&emsp;&emsp;</p> */}
