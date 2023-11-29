@@ -31,7 +31,7 @@ const About = () => {
                 back with another one Viz-A-Thon 2.0 🔥{" "}
               </p>
               <p>
-              Vizathon, a three-hour offline hackathon, tasks participants with cleaning and analyzing provided datasets using tools like Tableau and Power BI. The challenge lies in crafting insightful visualizations from cleaned data. With a prize pool exceeding 2 lakh rupees, participants clean, analyze, and present their findings in visually compelling dashboards to a panel of judges. Judging criteria encompass data preparation, analysis depth, visualization design, presentation, and tool proficiency. This event not only fosters skill development in data handling but also offers networking, recognition, and career advancement opportunities. Vizathon is the ultimate platform where data prowess meets creativity in a high-stakes, high-reward competition.
+              Vizathon, a three-hour offline hackathon, tasks participants with cleaning and analyzing provided datasets using tools like Tableau and Power BI. The challenge lies in crafting insightful visualizations from cleaned data. With a prize pool exceeding 50k+ rupees, participants clean, analyze, and present their findings in visually compelling dashboards to a panel of judges. Judging criteria encompass data preparation, analysis depth, visualization design, presentation, and tool proficiency. This event not only fosters skill development in data handling but also offers networking, recognition, and career advancement opportunities. Vizathon is the ultimate platform where data prowess meets creativity in a high-stakes, high-reward competition.
               </p>
               <div className="row mt-4">
                 <div className="col-4">

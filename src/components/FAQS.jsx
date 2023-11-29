@@ -12,7 +12,7 @@ const data = {
 
     {
       title:"Who can attend?",
-      content:"Vizathon is open to anyone passionate about data analysis and visualization students, professionals, and enthusiasts, irrespective of experience levels."
+      content:"Vizathon is open to any passionate undergraduate student, and enthusiast, irrespective of experience levels."
     },
 
     {
