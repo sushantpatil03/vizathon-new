@@ -23,8 +23,8 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>20th Nov</strong>
-                      <h6>10:OO AM</h6>
+                      <strong>28th Nov</strong>
+                      <h6>10:00 AM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
@@ -45,7 +45,7 @@ const Schedule = () => {
                   <div className="col-md-5">
                     <div className="process-step-number">
                       <strong>10th Jan</strong>
-                      <h6>10:OO PM</h6>
+                      <h6>10:00 PM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
@@ -74,9 +74,12 @@ const Schedule = () => {
                   <div className="col-md-7">
                     <h5>Viz-A-Thon Starts 🥳</h5>
                     <p>
+                    Participants have to create meaningful visualisations using given dataset <br />{" "}
+                    </p>
+                    {/* <p>
                       You can start working on datasets after
                       inauguration ceremony. <br />{" "}
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="process-line-l"></div>
@@ -89,13 +92,15 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>16th Jan</strong>
-                      <h6>03:3O PM</h6>
+                      <strong>17th Jan</strong>
+                      <h6>06:00 PM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Submit Final Work</h5>
-                    <p>Team leader should submit the insights on Devfolio.&emsp;&emsp;</p>
+                    <h5>Evaluation round 1</h5>
+                    <p>8 teams will be shortlisted based on evaluation round 1.&emsp;&emsp;</p>
+                    {/* <h5>Submit Final Work</h5>
+                    <p>Team leader should submit the insights on Devfolio.&emsp;&emsp;</p> */}
                   </div>
                 </div>
                 <div className="process-line-r"></div>
@@ -111,15 +116,19 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>16th Jan </strong>
+                      <strong>18th Jan </strong>
                       <h6> 04:00 PM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Present The Visuals</h5>
+                    <h5>Final Teams</h5>
+                    <p>
+                        Results of round 1 and shortlisted teams will receive mail
+                    </p>
+                    {/* <h5>Present The Visuals</h5>
                     <p>
                       Our judges will go through your work and give you points.<br />{" "}
-                    </p>
+                    </p> */}
                   </div>
                 </div>
                 <div className="process-line-l"></div>
@@ -132,14 +141,15 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>16th Jan</strong>
+                      <strong>19th Jan</strong>
                       <h6>06:00 PM</h6>
                     </div>
                   </div>
                   <div className="col-md-7">
                     <h5>Hackathon Ends</h5>
                     <p>
-                      We'll declare the winners and Viz-A-Thon ends!{" "}
+                    After the session by industry expert, we'll distribute the prizes!{" "}
+                      {/* We'll declare the winners and Viz-A-Thon ends!{" "} */}
                       {/* <a
                         style={{ color: "blue" }}
                         target={"_blank"}
