@@ -20,7 +20,7 @@ import ToTop from "./components/ToTop";
 function App() {
   return (
     <div className="App">
-      <Loader />
+      {/* <Loader /> */}
       <Header />
       <div className="main">
         <Hero />

@@ -110,9 +110,9 @@ const Hero = () => {
   </div>
 </div>
   <div className="hero-slider-content-container text-center text-white">
-    <strong style={{fontSize: "18px"}}>16th - 19th January 2024 </strong>
-    <h1 className="mb-0 color-og-2" style={{ WebkitTextStroke: "1px whitesmoke" }}>
-  Viz-A-Thon 2.0
+    <strong style={{fontSize: "21px"}}>16th - 19th January 2024 </strong>
+    <h1 className="mb-0 color-og-2" style={{ WebkitTextStroke: "0.7px whitesmoke" }}>
+      Viz-A-Thon 2.0
 </h1>
     <span style={{ fontSize: "20px"}}>
   Event sponsored by &ensp;
@@ -122,19 +122,44 @@ const Hero = () => {
     </a>
   </strong>
 </span>
-    <p className="lead mt-4">
+    <p className="lead mt-2">
+    Embark on a visual journey with Dataviz: Where Data becomes Art in the ultimate visualization experience!
+    </p>
+    {/* <p className="lead mt-4">
       Get your creative hats on and join us on this incredible ride to
       build something out of the box.
-    </p>
-    <div className="action-btns mt-4 ">
+    </p> */}
+    <div className="action-btns mt-2">
                 <a
                   href="https://learner.vierp.in/events"
-                  className="btn secondary-outline-btn"
+                  className="btn"
+                  target="_blank"
+                >
+                   <button className="register-btn">
+                   &nbsp;&nbsp;&nbsp;R E G I S T E R
+                      <div id="clip">
+                          <div id="leftTop" class="corner"></div>
+                          <div id="rightBottom" class="corner"></div>
+                          <div id="rightTop" class="corner"></div>
+                          <div id="leftBottom" class="corner"></div>
+                      </div>
+                      <span id="rightArrow" class="arrow"></span>
+                      <span id="leftArrow" class="arrow"></span>
+                  </button>
+                </a>
+
+                
+              </div>
+    {/* <div className="action-btns mt-2">
+                <a
+                  href="https://learner.vierp.in/events"
+                  className="btn register-btn"
                   target="_blank"
                 >
                   Click here to Register →
                 </a>
-              </div>
+              </div> */}
+              <a href="#" class="btn-link mt-2 reg-how-to">How to register ?</a>
   </div>
 </section>
 
