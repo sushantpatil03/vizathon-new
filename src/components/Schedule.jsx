@@ -50,7 +50,7 @@ const Schedule = () => {
                   </div>
                   <div className="col-md-7">
                     <h5>Registration Ends</h5>
-                    <p>You will be provided with the schedule soon. </p>
+                    <p>The schedule will be shared with you. Stay tuned for updates. </p>
                   </div>
                 </div>
                 <div className="process-line-r"></div>
