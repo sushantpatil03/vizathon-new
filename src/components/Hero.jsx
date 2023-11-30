@@ -159,7 +159,7 @@ const Hero = () => {
                   Click here to Register →
                 </a>
               </div> */}
-              <a href="#" class="btn-link mt-2 reg-how-to">How to register ?</a>
+              <a href="https://bit.ly/aisa-pdf" class="btn-link mt-2 reg-how-to">How to register ?</a>
   </div>
 </section>
 
