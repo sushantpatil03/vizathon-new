@@ -59,7 +59,8 @@ const About = () => {
               <center>
                   <div className="action-btns mt-4">
                     <a
-                      href="https://learner.vierp.in/events"
+                      href="https://bit.ly/register-vizathon"
+                      // href="https://learner.vierp.in/events"
                       className="btn secondary-outline-btn"
                       target="_blank"
                     >
