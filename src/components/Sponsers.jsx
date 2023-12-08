@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsers = () => {
   return (
-    <div id="sponsers" className="client-section ptb-100">
+    <div id="sponsers" className="client-section ptb-70">
       <div className="container" id="#sponsers">
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-9">
@@ -17,7 +17,7 @@ const Sponsers = () => {
         <div className="row justify-content-center">
           <div className="col-md-12 col-lg-12">
             <div className="section-heading text-center">
-              <h3 className="color-secondary" style={{ marginTop: "20px" }}>
+              <h3 className="color-secondary color-og-2" style={{ marginTop: "20px" }}>
                 {" "}
                 Event Sponsor{" "}
               </h3>
@@ -27,8 +27,8 @@ const Sponsers = () => {
                   src="img/sponsors/imfs.png"
                   style={{
                     height: "75px",
-                    width: "240px",
-                    margin: "30px 50px",
+                    width: "210px",
+                    margin: "10px 50px",
                     borderBottom: "0px",
                   }}
                 />
@@ -82,27 +82,27 @@ const Sponsers = () => {
             </div>
             <hr />
           </div>
-        </div>
+        </div>*/}
         <div className="row justify-content-center">
           <div className="col-md-12 col-lg-12">
             <div className="section-heading text-center">
-              <h3 className="color-secondary" style={{ marginTop: "20px" }}>
+              <h3 className="color-secondary color-og-2" style={{ marginTop: "20px" }}>
                 {" "}
-                Gold Sponsors{" "}
+                Judging Partner{" "}
               </h3>
               <center>
-                <a href="https://solana.com/" target="_BLANK">
+                <a href="https://www.wolterskluwer.com/en-in/" target="_BLANK">
                   <img
-                    src="img/sponsors/solana.png"
+                    src="img/sponsors/wk-white.png"
                     style={{
-                      height: "45px",
-                      width: "160px",
-                      margin: "30px 50px",
+                      height: "90px",
+                      width: "320px",
+                      margin: "8px 50px",
                       borderBottom: "0px",
                     }}
                   />
                 </a>
-                <a href="https://filecoin.io/" target="_BLANK">
+                {/* <a href="https://filecoin.io/" target="_BLANK">
                   <img
                     src="img/sponsors/filecoin.png"
                     style={{
@@ -123,13 +123,13 @@ const Sponsers = () => {
                       borderBottom: "0px",
                     }}
                   />
-                </a>
+                </a> */}
               </center>
             </div>
             <hr />
           </div>
         </div>
-        <div className="row justify-content-center">
+        {/*<div className="row justify-content-center">
           <div className="col-md-12 col-lg-12">
             <div className="section-heading text-center">
               <h3 className="color-secondary" style={{ marginTop: "20px" }}>

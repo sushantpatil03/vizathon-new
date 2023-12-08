@@ -37,7 +37,7 @@ const data = {
 
     {
       title:"I have more questions?",
-      content:"Reach us directly at (aisa@viit.ac.in) we would happy to help you."
+      content:"Reach us directly at (aisa@viit.ac.in) we would be happy to help you."
     }
   ]
 }

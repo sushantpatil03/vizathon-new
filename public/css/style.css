@@ -52,6 +52,12 @@
   src: url("font/conthrax-sb.otf")
 }
 
+@font-face {
+  font-family: 'Conthrax SemiBold';
+  /* font-style: normal; */
+  src: local('Conthrax SemiBold'), url('font/conthrax-sb.woff') format('woff');
+  }
+
 html {
     scroll-behavior: smooth;
   }
@@ -270,6 +276,7 @@ html {
     /* background: #181b7a; */
     /* background: #5f3ec7; */
     background-color: #30180f;
+    background-color: #151515;
     font-family: "Poppins", sans-serif;
     font-size: 1rem;
     /* color: #707070; */
@@ -398,6 +405,7 @@ html {
     /* background: #181b7a; */
     /* background: #5f3ec7; */
     background: #30180f;
+    background: #151515;
     /* background: #282828; */
   }
   
@@ -421,6 +429,12 @@ html {
   .viz-font{
     font-family: viz-font !important;
   }
+
+  .conthrax-font{
+    font-family:'Conthrax SemiBold' !important;
+    font-weight: 600 !important;
+    font-size:42px
+  }
   
   .color-og-1{
     color: #ad6c26 !important;
@@ -436,6 +450,7 @@ html {
   
   .gradient-bg {
     background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
+    /* background: linear-gradient(to top, #181818 90% , #D35100 10%,#fb6c45 10%) !important; */
     /* background: linear-gradient(75deg, #130c2e 20%, #151515) !important; */
     /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
   }
@@ -5747,7 +5762,7 @@ html {
     vertical-align: top;
   }
   
-  body::-webkit-scrollbar {
+  /* body::-webkit-scrollbar {
     width: 6px;
   }
   .single-blog-card::-webkit-scrollbar {
@@ -5781,6 +5796,24 @@ html {
   }
   .promo-single-wrap::-webkit-scrollbar-thumb {
     background-color: #D35100;
+  } */
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    /* background: linear-gradient(transparent,#30ff00); */
+    background: linear-gradient(
+      43deg,
+      #151515 0%,
+      #eb841c 33%,
+      #F07900 66%,
+      #151515 100%
+    );
+    border-radius: 6px;
+    height: 200px;
   }
   
   .teamClass {
@@ -5853,9 +5886,9 @@ html {
     margin-bottom: 10px;
     margin-left: 20px;
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    color: whitesmoke;
-    font-size: 90px;
+    /* font-weight: bolder; */
+    /* color: whitesmoke; */
+    /* font-size: 90px; */
     
   
   }
@@ -5910,13 +5943,13 @@ html {
   /* Base styles */
   .hero-slider-content-container strong {
     font-size: 30px;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a subtle white glow */
+    /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
   }
   
   .hero-slider-content-container h1 {
     font-size: 80px;
-    -webkit-text-stroke: 1px whitesmoke;
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Add a more pronounced white glow */
+    /* -webkit-text-stroke: 1px whitesmoke; */
+    /* text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);  */
   }
   
   /* Responsive styles */

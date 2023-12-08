@@ -84,16 +84,16 @@ import "./hero.css";
 // import { Link } from "react-router-dom";
 
 const Hero = () => {
-  React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
+  // React.useEffect(() => {
+  //   const script = document.createElement("script");
+  //   script.src = "https://apply.devfolio.co/v2/sdk.js";
+  //   script.async = true;
+  //   script.defer = true;
+  //   document.body.appendChild(script);
+  //   return () => {
+  //     document.body.removeChild(script);
+  //   };
+  // }, []);
 
   return (
 <section id="header-top-bar" className="ptb-70 gradient-bg ">
@@ -110,11 +110,19 @@ const Hero = () => {
   </div>
 </div>
   <div className="hero-slider-content-container text-center text-white">
-    <strong style={{fontSize: "21px"}}>16th - 19th January 2024 </strong>
-    <h1 className="mb-0 color-og-2" style={{ WebkitTextStroke: "0.7px whitesmoke" }}>
-      Viz-A-Thon 2.0
-</h1>
-    <span style={{ fontSize: "20px"}}>
+    <strong style={{fontSize: "21px"}} className="color-secondary">16th - 19th January 2024 </strong>
+    {/* <h1 className="mb-0 color-og-2 conthrax-font" >
+      VIZ-A-THON 2.0
+</h1> */}
+    <a href="https://fontmeme.com/fonts/conthrax-font/" target="_blank" rel="noopener noreferrer" className="viz-heading-img">
+      <img
+        src="https://fontmeme.com/permalink/231207/b1e4220ae595059062acb29e4b2a5b4d.png"
+        alt="conthrax-font"
+        border="0"
+        width={700}
+      />
+    </a>
+    <span style={{ fontSize: "20px"}} className="color-og-2">
   Event sponsored by &ensp;
   <strong style={{ fontSize: "25px" }}>
     <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white" }}>
@@ -123,7 +131,7 @@ const Hero = () => {
   </strong>
 </span>
     <p className="lead mt-2">
-    Embark on a visual journey with Dataviz: Where Data becomes Art in the ultimate visualization experience!
+    Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">
       Get your creative hats on and join us on this incredible ride to
