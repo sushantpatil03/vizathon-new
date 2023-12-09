@@ -259,12 +259,10 @@ html {
   .brand,
   .btn,
   .btn-simple,
-  a,
-  .td-name,
   td {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    color: whitesmoke !important;
+    color: whitesmoke ;
   }
   
   body
@@ -448,23 +446,18 @@ html {
     text-shadow: 3.5px 3.5px 3px orange;
   }
   
-  .gradient-bg {
-    background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
-    /* background: linear-gradient(to top, #181818 90% , #D35100 10%,#fb6c45 10%) !important; */
-    /* background: linear-gradient(75deg, #130c2e 20%, #151515) !important; */
-    /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
-  }
+  
   .gradient1-bg{
     color: #f0e800 ;
   }
   .gradient-bg {
-    background: linear-gradient(to top, #30180f 10%, #D35100 90%, #fb6c45 90%) !important;
+    background-color: black !important;
     /* Original gradient */
   
     /* Responsive styles for smaller screens (up to 768px) */
     @media only screen and (max-width: 480px) {
       .gradient-bg {
-        background: linear-gradient(to top, #30180f 10%, #D35100 70%, #fb6c45 90%) !important;
+         background-color: black !important;
         /* Adjusted gradient for smaller screens */
       }
     }
@@ -820,7 +813,7 @@ html {
     opacity: 0;
     transition: 400ms;
     text-shadow: 0 0.5px 0.3px rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(to top, black, #f07900);
+    background-image: linear-gradient(to top, black, #030303);
   }
   
   .outline-btn:hover:after {
@@ -1307,7 +1300,7 @@ html {
   
   @media (min-width: 320px) and (max-width: 992px) {
     .navbar {
-      background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
+      background: linear-gradient(to top, #30180f 10% , #0c0c0c 90%,#070707 90%) !important;
       padding: 0.45rem 1rem !important;
     }
     /* .menu li {
@@ -1315,7 +1308,7 @@ html {
     } */
   
     .gradient-bg {
-      background: linear-gradient(to top, #30180f 20% , #D35100 90%,#fb6c45 90%) !important;
+      background-color: black !important;
       /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
     }
   
@@ -1511,7 +1504,7 @@ html {
   .slider-bg-image:before {
     position: absolute;
     content: "";
-    background: #f07900;
+    background: #020202;
     opacity: 0.6;
     width: 100%;
     height: 100%;
@@ -1521,11 +1514,7 @@ html {
   .gradient-overlay:before {
     position: absolute;
     content: "";
-    background-image: linear-gradient(
-      to top,
-      #D35100 ,
-      #000000
-    ) !important;
+    background-color: black !important;
     width: 100%;
     height: 100%;
     top: 0;
@@ -1580,7 +1569,7 @@ html {
       linear,
       left top,
       right top,
-      color-stop(0, #fba145),
+      color-stop(0, #010101),
       to(transparent)
     );
     background: linear-gradient(
@@ -1594,12 +1583,12 @@ html {
       linear,
       left top,
       right top,
-      color-stop(0, #f07900),
+      color-stop(0, #0a0a0a),
       to(transparent)
     );
     background: linear-gradient(
       to right,
-      #f07900 30%,
+      #030303 30%,
       rgba(26, 44, 121, 0.18) 100%
     );
   }
@@ -1608,12 +1597,12 @@ html {
       linear,
       left top,
       right top,
-      color-stop(0, #f07900),
+      color-stop(0, #060606),
       to(transparent)
     );
     background: linear-gradient(
       to left,
-      #f07900 30%,
+      #070707 30%,
       rgba(26, 44, 121, 0.18) 100%
     );
   }
@@ -1622,12 +1611,12 @@ html {
       linear,
       left top,
       right top,
-      color-stop(0, #f07900),
+      color-stop(0, #040404),
       to(transparent)
     );
     background: linear-gradient(
       to bottom,
-      #f07900 45%,
+      #030303 45%,
       rgba(26, 44, 121, 0.18) 100%
     );
   }
@@ -1636,12 +1625,12 @@ html {
       linear,
       left top,
       right top,
-      color-stop(0, #fba145),
+      color-stop(0, #0a0a0a),
       to(transparent)
     );
     background: linear-gradient(
       to top,
-      #f07900 35%,
+      #020202 35%,
       rgba(26, 44, 121, 0.18) 100%
     );
   }
@@ -3727,6 +3716,7 @@ html {
     display: block;
   }
   .about-us-img .about-single-img {
+    margin-top:70px;
     position: relative;
     z-index: 2;
   }
@@ -5993,11 +5983,11 @@ html {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Adjust glow intensity */
   }
   .footer-top {
-    background: linear-gradient(to bottom, #30191f 2% ,#30180f 2% , #472317) !important;}
-   
-   .action-btns mt-4{
-    left:50%;
+    position: relative;
+    background: linear-gradient(#000000, #000000) !important;
+    color: #ffffff; 
+    padding: 20px;
+    overflow: hidden; 
+}
 
-   }
-   /* style.css */
 

@@ -114,23 +114,33 @@ const Hero = () => {
     {/* <h1 className="mb-0 color-og-2 conthrax-font" >
       VIZ-A-THON 2.0
 </h1> */}
-    <a href="https://fontmeme.com/fonts/conthrax-font/" target="_blank" rel="noopener noreferrer" className="viz-heading-img">
-      <img
-        src="https://fontmeme.com/permalink/231207/b1e4220ae595059062acb29e4b2a5b4d.png"
-        alt="conthrax-font"
-        border="0"
-        width={700}
-      />
-    </a>
+   <a
+  href="https://fontmeme.com/fonts/conthrax-font/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="viz-heading-img"
+  style={{ display: "block", textAlign: "center" }}
+>
+  <img
+    src="https://fontmeme.com/permalink/231207/b1e4220ae595059062acb29e4b2a5b4d.png"
+    alt="conthrax-font"
+    border="0"
+    style={{
+      width: "100%", // Set the image width to 100% of its container
+      maxWidth: "690px", // Set a maximum width for larger screens
+      height: "auto", // Maintain aspect ratio
+    }}
+  />
+</a>
     <span style={{ fontSize: "20px"}} className="color-og-2">
   Event sponsored by &ensp;
   <strong style={{ fontSize: "25px" }}>
-    <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white" }}>
-      <img src="img/sponsors/imfs.png" width="50%" />    
+    <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white"}}>
+      <img src="img/sponsors/imfs.png" width="50%"  />    
     </a>
   </strong>
 </span>
-    <p className="lead mt-2">
+    <p className="lead mt-2" style={{ background: 'linear-gradient(to right, #FFA500, #FFD700)', WebkitBackgroundClip: 'text', color: 'transparent'}}>
     Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">
@@ -138,11 +148,11 @@ const Hero = () => {
       build something out of the box.
     </p> */}
     <div className="action-btns mt-2">
-                <a
+                <a 
                   href="https://bit.ly/register-vizathon"
                   // href="https://learner.vierp.in/events"
                   className="btn"
-                  target="_blank"
+                  target="_blank" 
                 >
                    <button className="register-btn">
                    &nbsp;&nbsp;&nbsp;R E G I S T E R
@@ -168,7 +178,7 @@ const Hero = () => {
                   Click here to Register →
                 </a>
               </div> */}
-              <a href="https://bit.ly/join-our-multimillionaire-event" target="_blank" class="btn-link mt-2 reg-how-to">How to register ?</a>
+              <a href="https://bit.ly/join-our-multimillionaire-event" target="_blank" class="btn-link mt-2 reg-how-to" style={{ textDecoration: 'none' }}>How to register ?</a>
               {/* <a href="https://bit.ly/aisa-pdf" target="_blank" class="btn-link mt-2 reg-how-to">How to register ?</a> */}
   </div>
 </section>
