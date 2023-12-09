@@ -28,7 +28,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Registration Starts</h5>
+                    <h5 style={{ color: '#FFD700' }}>Registration Starts</h5>
                     <p>
                       Register yourself at VIERP by submitting your details.{" "}
                     </p>
@@ -49,7 +49,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Registration Ends</h5>
+                    <h5 style={{ color: '#FFD700' }}>Registration Ends</h5>
                     <p>The schedule will be shared with you. Stay tuned for updates. </p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Viz-A-Thon Starts 🥳</h5>
+                    <h5 style={{ color: '#FFD700' }}>Viz-A-Thon Starts 🥳</h5>
                     <p>
                     Create meaningful visualizations with given datasets. <br />{" "}
                     </p>
@@ -97,7 +97,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Evaluation Round 1</h5>
+                    <h5 style={{ color: '#FFD700' }}>Evaluation Round 1</h5>
                     <p>8 teams will be shortlisted based on evaluation round 1.&emsp;&emsp;</p>
                     {/* <h5>Submit Final Work</h5>
                     <p>Team leader should submit the insights on Devfolio.&emsp;&emsp;</p> */}
@@ -121,7 +121,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Final Teams</h5>
+                    <h5 style={{ color: '#FFD700' }}>Final Teams</h5>
                     <p>
                         Results of round 1 and shortlisted teams will receive mail
                     </p>
@@ -146,7 +146,7 @@ const Schedule = () => {
                     </div>
                   </div>
                   <div className="col-md-7">
-                    <h5>Hackathon Ends</h5>
+                    <h5 style={{ color: '#FFD700' }}>Hackathon Ends</h5>
                     <p>
                     After the session by industry expert, we'll distribute the prizes!{" "}
                       {/* We'll declare the winners and Viz-A-Thon ends!{" "} */}

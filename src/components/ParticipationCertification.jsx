@@ -25,10 +25,10 @@ const ParticipationCertification = () => {
           <div className="col-8">
             <div className={`support-cta mt-5 text-center ${isExplosion ? "explosion-animation" : ""}`}>
               <h5 className="mb-1 text-center" onClick={handleCertificateClick}>
-                <span className="color-secondary">
-                  <i className="fa-solid fa-bolt"></i>
-                </span>{" "}
-                Participation Certificate{" "}
+                <span className="color-secondary" >
+                  <i className="fa-solid fa-bolt" ></i>
+                </span>{" "}<span style={{ color: '#FFD700'}}>
+                Participation Certificate</span>
                 <span className="color-secondary">
                   <i className="fa-solid fa-bolt"></i>
                 </span>
@@ -44,8 +44,8 @@ const ParticipationCertification = () => {
               <h5 className="mb-1 text-center" onClick={handleCertificateClick}>
                 <span className="color-secondary">
                   <i className="fa-solid fa-bolt"></i>
-                </span>{" "}
-                Winners Certificate{" "}
+                </span>{" "}<span style={{ color: '#FFD700'}}>
+                Winners Certificate{" "}</span>
                 <span className="color-secondary">
                   <i className="fa-solid fa-bolt"></i>
                 </span>

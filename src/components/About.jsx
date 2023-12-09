@@ -6,7 +6,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6">
-            <div className="about-us-img">
+            <div className="about-us-img" style={{marginTop:'10px'}}>
               <img
                 src="img/about-bg.png"
                 alt="about us"
@@ -25,16 +25,14 @@ const About = () => {
               <h3>What is Viz-A-Thon?</h3>
               <span className="animate-border mb-4"></span>
                <div className="aboutcolor">
-               <p style={{ background: 'linear-gradient(to right, #FFA500, #FFD700)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
-    
+               <p style={{ color: '#FFD700' }}>    
                 {" "}
                 After getting the success of{" "}
                 <a href="#">Viz-A-Thon 1.0</a> we are again
                 back with another one Viz-A-Thon 2.0 🔥{" "}
               </p>
              
-              <p style={{ background: 'linear-gradient(to right, #FFA500, #FFD700)', WebkitBackgroundClip: 'text', color: 'transparent'}}>
-                
+              <p style={{ color: '#FFD700'}}>                
               Vizathon, a three-hour offline hackathon, tasks participants with cleaning and analyzing provided datasets using tools like Tableau and Power BI. The challenge lies in crafting insightful visualizations from cleaned data. With a prize pool exceeding 50k rupees, participants clean, analyze, and present their findings in visually compelling dashboards to a panel of judges. Judging criteria encompass data preparation, analysis depth, visualization design, presentation, and tool proficiency. This event not only fosters skill development in data handling but also offers networking, recognition, and career advancement opportunities. Vizathon is the ultimate platform where data prowess meets creativity in a high-stakes, high-reward competition.
               </p>
               </div>
@@ -67,7 +65,8 @@ const About = () => {
                       href="https://bit.ly/register-vizathon"
                       // href="https://learner.vierp.in/events"
                       className="btn secondary-outline-btn"
-                      target="_blank"
+                      target="_blank" style={{ color: '#FFD700'}} onMouseOver={(e) => e.target.style.color = '#FFFFFF'} // Change color to white on hover
+                      onMouseOut={(e) => e.target.style.color = '#FFD700'} 
                     >
                       Click here to Register →
                     </a>

@@ -140,7 +140,7 @@ const Hero = () => {
     </a>
   </strong>
 </span>
-    <p className="lead mt-2" style={{ background: 'linear-gradient(to right, #FFA500, #FFD700)', WebkitBackgroundClip: 'text', color: 'transparent'}}>
+    <p className="lead mt-2" style={{ color: '#FFD700'}}>
     Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">

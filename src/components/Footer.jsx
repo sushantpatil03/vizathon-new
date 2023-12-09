@@ -189,7 +189,7 @@ const Footer = () => {
               <div className="row footer-top-wrap">
                 <div className="col-md-4 col-sm-6">
                   <div className="footer-nav-wrap text-white">
-                    <p>VIZ-A-THON 2.0, Organized By</p>
+                    <p style={{color: '#FFD700'}}>VIZ-A-THON 2.0, Organized By</p>
                     <a href="https://aisa-viit.com/">
                       <img src="img/AISA-DARK.png" width="50%" />
                     </a>

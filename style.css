@@ -266,7 +266,7 @@ body {
   /* background: #001440; */
   /* background: #181b7a; */
   /* background: #5f3ec7; */
-  background-color: #30180f;
+  background-color: black;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   /* color: #707070; */
@@ -392,7 +392,7 @@ b {
   /* background: #001440; */
   /* background: #181b7a; */
   /* background: #5f3ec7; */
-  background: #30180f;
+  background: black;
   /* background: #282828; */
 }
 
@@ -425,11 +425,7 @@ b {
   text-shadow: 3.5px 3.5px 3px orange;
 }
 
-.gradient-bg {
-  background: linear-gradient(to top, #30180f 20% , #D35100 80%,#fb6c45 90%) !important;
-  /* background: linear-gradient(75deg, #130c2e 20%, #151515) !important; */
-  /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
-}
+
 
 .white-bg {
   /* background: rgb(24, 26, 27); */
@@ -459,11 +455,11 @@ a:hover {
 }
 
 .color-2 {
-  color: #3d2610;
+  color: black;
 }
 
 .color-2-bg {
-  background:#3d2610;
+  background:black;
 }
 
 .color-3 {
@@ -1070,10 +1066,7 @@ select.form-control.has-value {
     display: block;
   } */
 
-  .gradient-bg {
-    background: linear-gradient(60deg, #130c2e 55%, #f07900) !important;
-    /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
-  }
+
 
   .white-bg.affix,
   .custom-nav.affix,
@@ -5630,10 +5623,6 @@ body::-webkit-scrollbar-thumb {
 
 }
 
-
-.gradient1-bg{
-  background:linear-gradient(to bottom,#3d2610,#3d2610);
-}
 
 .tooltip-item{
   background-color: #91ec00;
