@@ -126,21 +126,21 @@ const Hero = () => {
     alt="conthrax-font"
     border="0"
     style={{
-      width: "100%", // Set the image width to 100% of its container
+      width: "90%", // Set the image width to 100% of its container
       maxWidth: "690px", // Set a maximum width for larger screens
       height: "auto", // Maintain aspect ratio
     }}
   />
 </a>
-    <span style={{ fontSize: "20px"}} className="color-og-2">
+    <span style={{ fontSize: "18px"}} className="color-og-2">
   Event sponsored by &ensp;
   <strong style={{ fontSize: "25px" }}>
     <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white"}}>
-      <img src="img/sponsors/imfs.png" width="50%"  />    
+      <img src="img/sponsors/imfs.png" width="40%"  />    
     </a>
   </strong>
 </span>
-    <p className="lead mt-2" style={{ color: '#FFD700'}}>
+    <p className="lead mt-2" style={{ color: '#FFD700',fontSize:'16px'}}>
     Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">
