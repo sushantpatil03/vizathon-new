@@ -2475,7 +2475,7 @@ a.detail-link:hover span {
   letter-spacing: 0.025em;
 }
 .text-white .step::before {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
   color: #fff;
 }
 .step:hover::before,
@@ -2527,12 +2527,13 @@ a.detail-link:hover span {
 }
 
 .text-white .step::after {
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 .work-process-carousel {
   position: relative;
   display: block;
 }
+
 .work-process-carousel .owl-nav {
   position: absolute;
   right: 0;
@@ -5507,7 +5508,7 @@ body::-webkit-scrollbar-thumb {
 /* Additional styles for text alignment and spacing */
 .hero-slider-content-container strong {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-left: 20px;
 }
 
@@ -5524,7 +5525,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: bolder;
   color: yellow;
   font-size: 90px;
-  
 
 }
 

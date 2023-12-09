@@ -14,8 +14,8 @@ const Hero = () => {
   }, []);
 
   return (
-<section id="header-top-bar" className="ptb-70 gradient-bg">
-  <div className="hero-slider-content-container text-center text-white">
+<section id="header-top-bar" className="ptb-70 gradient-bg" >
+  <div className="hero-slider-content-container text-center text-white" >
     <strong style={{fontSize: "20px"}}>16th - 17th January 2024 </strong>
     <h1 className="mb-0 color-og-2">Viz-A-Thon 2.0</h1>
     <span className="color-og-2">

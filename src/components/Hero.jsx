@@ -109,7 +109,7 @@ const Hero = () => {
   />
   </div>
 </div>
-  <div className="hero-slider-content-container text-center text-white">
+  <div className="hero-slider-content-container text-center text-white" style={{ background: 'linear-gradient(to top, #333333, #000000)' }}>
     <strong style={{fontSize: "21px"}} className="color-secondary">16th - 19th January 2024 </strong>
     {/* <h1 className="mb-0 color-og-2 conthrax-font" >
       VIZ-A-THON 2.0
