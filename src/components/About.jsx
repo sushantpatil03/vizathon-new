@@ -25,14 +25,14 @@ const About = () => {
               <h3>What is Viz-A-Thon?</h3>
               <span className="animate-border mb-4"></span>
                <div className="aboutcolor">
-               <p style={{ color: '#FFD700' }}>    
+               <p>    
                 {" "}
                 After getting the success of{" "}
                 <a href="#">Viz-A-Thon 1.0</a> we are again
                 back with another one Viz-A-Thon 2.0 🔥{" "}
               </p>
              
-              <p style={{ color: '#FFD700'}}>                
+              <p>                
               Vizathon, a three-hour offline hackathon, tasks participants with cleaning and analyzing provided datasets using tools like Tableau and Power BI. The challenge lies in crafting insightful visualizations from cleaned data. With a prize pool exceeding 50k rupees, participants clean, analyze, and present their findings in visually compelling dashboards to a panel of judges. Judging criteria encompass data preparation, analysis depth, visualization design, presentation, and tool proficiency. This event not only fosters skill development in data handling but also offers networking, recognition, and career advancement opportunities. Vizathon is the ultimate platform where data prowess meets creativity in a high-stakes, high-reward competition.
               </p>
               </div>
