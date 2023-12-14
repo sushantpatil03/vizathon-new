@@ -11,6 +11,7 @@
     .vd1 {
         width: 425px;
         margin-left: 5px;
+     
     }
 }
 
@@ -34,4 +35,11 @@
     .logo img {
       margin: 10px 2%; /* Adjust margin for smaller screens */
     }
+
+  }
+  @media (max-width: 576px) {
+    body {
+        margin: 2px;
+      }
+    
   }

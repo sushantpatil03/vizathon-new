@@ -6,7 +6,7 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6">
-            <div className="about-us-img" style={{marginTop:'10px'}}>
+            <div className="about-us-img" style={{marginTop:'2px'}}>
               <img
                 src="img/about-bg.png"
                 alt="about us"

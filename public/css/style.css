@@ -3581,7 +3581,7 @@ html {
     display: block;
   }
   .about-us-img .about-single-img {
-    margin-top:70px;
+    margin-top:20px;
     position: relative;
     z-index: 2;
   }
@@ -5844,7 +5844,7 @@ html {
     margin: 10px;
     border: 1px solid white;
     width: 180px;
-    margin-top: 50px;
+    margin-top: 50px!important;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Adjust glow intensity */
   }
   .footer-top {
@@ -5974,4 +5974,3 @@ html {
     font-size: 12px;
   }
 }
-
