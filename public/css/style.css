@@ -5956,7 +5956,7 @@ html {
   /* Adjust font size and spacing for the heading image */
   .viz-heading-img {
     img {
-      width: 80%; /* Make sure the image fills the container */
+      width: 60%; /* Make sure the image fills the container */
     }
   }
 

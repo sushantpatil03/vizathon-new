@@ -143,7 +143,7 @@
 
   /*promo*/
   div[class*="col-"]:not(:last-of-type) {
-    margin-bottom: 20px !important;
+    margin-bottom: 7px !important;
   }
   .row > div[class*="col-"]:last-of-type {
     margin-bottom: 0;
