@@ -450,19 +450,7 @@ html {
   .gradient1-bg{
     color: #f0e800 ;
   }
-  .gradient-bg {
-    background-color: black !important;
-    /* Original gradient */
-  
-    /* Responsive styles for smaller screens (up to 768px) */
-    @media only screen and (max-width: 480px) {
-      .gradient-bg {
-         background-color: black !important;
-        /* Adjusted gradient for smaller screens */
-      }
-    }
-  }
-  
+
   .white-bg {
     /* background: rgb(24, 26, 27); */
     /* background: #161616; */
@@ -760,15 +748,7 @@ html {
   }
 
    /* STOP HERE  */
-  
-  .primary-solid-btn {
-    border: 1px solid #3d2610;
-    /* box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .15);
-      background-image: linear-gradient(to bottom, #65258a, #7c23af); */
-    color: #ffffff;
-    background-color: #3d2610;
-  }
-  
+
   .primary-solid-btn:hover {
     background: transparent;
     color: orange;
@@ -801,20 +781,7 @@ html {
     color: #f07900;
     border: 1px solid #f07900;
   }
-  .outline-btn:after {
-    content: " ";
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    bottom: -1px;
-    right: -1px;
-    z-index: -1;
-    border-radius: 4px;
-    opacity: 0;
-    transition: 400ms;
-    text-shadow: 0 0.5px 0.3px rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(to top, black, #030303);
-  }
+  
   
   .outline-btn:hover:after {
     opacity: 1;
@@ -1113,9 +1080,7 @@ html {
     opacity: 1;
   }
   
-  .bg-transparent.affix {
-    background: linear-gradient(to top, #30180f 10% , #D35100 90%,#fb6c45 90%) !important;
-  }
+  
   
   .navbar-toggler {
     color: #ffffff;
@@ -1298,107 +1263,7 @@ html {
     text-decoration: none;
   }
   
-  @media (min-width: 320px) and (max-width: 992px) {
-    .navbar {
-      background: linear-gradient(to top, #30180f 10% , #0c0c0c 90%,#070707 90%) !important;
-      padding: 0.45rem 1rem !important;
-    }
-    /* .menu li {
-      display: block;
-    } */
-  
-    .gradient-bg {
-      background-color: black !important;
-      /* background: radial-gradient(circle at center, #2d1f58, #130c2e 80%); */
-    }
-  
-    .white-bg.affix,
-    .custom-nav.affix,
-    .navbar.white-bg {
-      background: #130c2e !important;
-    }
-  
-    .white-bg.custom-nav ul li a,
-    .custom-nav ul li a {
-      color: #081d43 !important;
-    }
-  
-    .white-bg.navbar .navbar-toggler span {
-      color: #65258a;
-    }
-  
-    .ptb-100 {
-      padding: 55px 0;
-    }
-  
-    .pt-100 {
-      padding-top: 55px;
-    }
-  
-    .pb-100 {
-      padding-bottom: 55px;
-    }
-    .pt-165 {
-      padding-top: 100px;
-    }
-    .mt--165 {
-      margin-top: 0 !important;
-    }
-    .hero-equal-height {
-      min-height: auto !important;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 979px) {
-    .mainWrap {
-      width: 768px;
-    }
-  
-    .menu ul {
-      top: 37px;
-    }
-  
-    .menu li a {
-      padding: 8px 15px;
-    }
-  
-    a.homer {
-      background: #374147;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .responsive-menu {
-      display: block;
-    }
-    .header nav.navbar {
-      padding: 0.5rem 1rem;
-    }
-    .mainWrap {
-      width: auto;
-      padding: 50px 20px;
-    }
-  
-    nav {
-      margin: 0;
-      background: none;
-    }
-  
-    .menu li {
-      display: block;
-      margin: 0;
-    }
-  
-    .menu li a {
-      padding: 8px 15px;
-    }
-  
-    .menu li a:hover,
-    .menu li:hover > a {
-      /* background: #65258a; */
-      color: #fff;
-    }
-  
+
     .menu ul {
       visibility: hidden;
       opacity: 0;
@@ -3716,7 +3581,7 @@ html {
     display: block;
   }
   .about-us-img .about-single-img {
-    margin-top:70px;
+    margin-top:20px;
     position: relative;
     z-index: 2;
   }
@@ -5979,7 +5844,7 @@ html {
     margin: 10px;
     border: 1px solid white;
     width: 180px;
-    margin-top: 50px;
+    margin-top: 50px!important;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.7); /* Adjust glow intensity */
   }
   .footer-top {
@@ -5989,5 +5854,123 @@ html {
     padding: 20px;
     overflow: hidden; 
 }
+/* hero.css */
 
+/* Your existing styles for larger screens */
+#header-top-bar {
+  padding-top: 70px;
+}
 
+.hero-slider-content-container {
+  text-align: center;
+  color: white;
+}
+
+/* Styles for tablets */
+@media (max-width: 991px) and (min-width: 768px) {
+  #header-top-bar {
+    padding-top: 50px;
+  }
+
+  .hero-slider-content-container {
+    padding: 20px;
+  }
+
+  strong {
+    font-size: 800px;
+  }
+
+  /* Adjust font size and spacing for the heading image */
+  .viz-heading-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    img {
+      width: 100%; /* Make sure the image fills the container */
+    }
+  }
+
+  span {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  /* Adjust padding and font size for the registration button */
+  .register-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Styles for mobile devices (portrait) */
+@media (max-width: 576px) {
+  #header-top-bar {
+    padding-top: 40px;
+  }
+
+  .hero-slider-content-container {
+    padding: 15px;
+  }
+
+  strong {
+    font-size: 14px;
+  }
+
+  /* Adjust font size and spacing for the heading image */
+  .viz-heading-img {
+    img {
+      width: 100%; /* Make sure the image fills the container */
+    }
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  /* Adjust padding and font size for the registration button */
+  .register-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 991px) {
+  #header-top-bar {
+    padding-top: 40px;
+  }
+
+  .hero-slider-content-container {
+    padding: 15px;
+  }
+
+  strong {
+    font-size:5px;
+  }
+
+  /* Adjust font size and spacing for the heading image */
+  .viz-heading-img {
+    img {
+      width: 80%; /* Make sure the image fills the container */
+    }
+  }
+
+  span {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  /* Adjust padding and font size for the registration button */
+  .register-btn {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+}

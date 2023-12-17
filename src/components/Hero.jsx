@@ -119,7 +119,7 @@ const Hero = () => {
         src="https://fontmeme.com/permalink/231207/b1e4220ae595059062acb29e4b2a5b4d.png"
         alt="conthrax-font"
         border="0"
-        width={700}
+        width={350}
       />
     </a>
     <span style={{ fontSize: "20px"}} className="color-og-2">
@@ -130,7 +130,7 @@ const Hero = () => {
     </a>
   </strong>
 </span>
-    <p className="lead mt-2">
+    <p className="embark" style={{fontSize:"15px"}}>
     Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">
