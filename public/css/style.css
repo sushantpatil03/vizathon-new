@@ -5950,7 +5950,7 @@ html {
   }
 
   strong {
-    font-size:5px;
+    /* font-size:5px; */
   }
 
   /* Adjust font size and spacing for the heading image */
@@ -5965,7 +5965,7 @@ html {
   }
 
   p {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 
   /* Adjust padding and font size for the registration button */

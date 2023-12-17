@@ -44,7 +44,7 @@ const Schedule = () => {
                 <div className="row">
                   <div className="col-md-5">
                     <div className="process-step-number">
-                      <strong>18 Dec</strong>
+                      <strong>28 Dec</strong>
                       <h6>10:00 PM</h6>
                     </div>
                   </div>
