@@ -102,7 +102,7 @@ const Hero = () => {
   justifyContent: "center", /* Horizontal alignment */
   alignItems: "center", /* Vertical alignment */
 }}>
-  <div class="img-container">
+  <div class="img-container" style={{ paddingTop : "20px"}}>
   <img
     src="img/vizlogov1.png"
     alt="Viz Logo"
@@ -122,7 +122,7 @@ const Hero = () => {
         width={350}
       />
     </a>
-    <span style={{ fontSize: "20px"}} className="color-og-2">
+    <span style={{ fontSize: "21px", paddingTop : "5px"}} className="color-secondary">
   Event sponsored by &ensp;
   <strong style={{ fontSize: "25px" }}>
     <a href="https://www.imfs.co.in/" target="_blank" style={{ color: "white" }}>
@@ -130,7 +130,7 @@ const Hero = () => {
     </a>
   </strong>
 </span>
-    <p className="embark" style={{fontSize:"15px"}}>
+    <p className="embark" style={{fontSize:"18px"}}>
     Embark on a visual journey with Dataviz: Where Data becomes<br></br> Art in the ultimate visualization experience!
     </p>
     {/* <p className="lead mt-4">
@@ -145,7 +145,7 @@ const Hero = () => {
                   target="_blank"
                 >
                    <button className="register-btn">
-                   &nbsp;&nbsp;&nbsp;R E G I S T E R
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R E G I S T E R
                       <div id="clip">
                           <div id="leftTop" class="corner"></div>
                           <div id="rightBottom" class="corner"></div>
