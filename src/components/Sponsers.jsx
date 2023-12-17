@@ -97,7 +97,7 @@ const Sponsers = () => {
                     style={{
                       height: "90px",
                       width: "320px",
-                      margin: "8px 20px",
+                      margin: "8px 5px",
                       borderBottom: "0px",
                     }}
                   />
