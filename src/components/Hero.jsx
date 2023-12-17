@@ -114,7 +114,7 @@ const Hero = () => {
     {/* <h1 className="mb-0 color-og-2 conthrax-font" >
       VIZ-A-THON 2.0
 </h1> */}
-    <a href="https://fontmeme.com/fonts/conthrax-font/" target="_blank" rel="noopener noreferrer" className="viz-heading-img">
+    <a href="#home" rel="noopener noreferrer" className="viz-heading-img">
       <img
         src="https://fontmeme.com/permalink/231207/b1e4220ae595059062acb29e4b2a5b4d.png"
         alt="conthrax-font"
