@@ -147,8 +147,8 @@ const Hero = () => {
 
     <div className="action-btns mt-2">
                 <a
-                  href="#"
-                  // href="https://bit.ly/register-vizathon"
+                  // href="#"
+                  href="https://bit.ly/register-vizathon"
                   // href="https://learner.vierp.in/events"
                   className="btn"
                   
