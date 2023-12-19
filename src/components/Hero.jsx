@@ -143,7 +143,7 @@ const Hero = () => {
                   // href="https://bit.ly/register-vizathon"
                   // href="https://learner.vierp.in/events"
                   className="btn"
-                  target="_blank"
+                  
                 >
                    <button className="register-btn">
                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R E G I S T E R
