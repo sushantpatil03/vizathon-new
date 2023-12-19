@@ -138,9 +138,13 @@ const Hero = () => {
       Get your creative hats on and join us on this incredible ride to
       build something out of the box.
     </p> */}
-    <div className="">
+
+
+    {/* <div className="">
       <RegistrationBtn/>
-    </div>
+    </div> */}
+
+    
     {/* <div className="action-btns mt-2">
                 <a
                   href="#"
@@ -164,7 +168,7 @@ const Hero = () => {
 
                 
               </div> */}
-    {/* <div className="action-btns mt-2">
+    <div className="action-btns mt-2">
                 <a
                   href="https://learner.vierp.in/events"
                   className="btn register-btn"
@@ -172,7 +176,7 @@ const Hero = () => {
                 >
                   Click here to Register →
                 </a>
-              </div> */}
+              </div>
               {/* <a href="https://bit.ly/join-our-multimillionaire-event" target="_blank" class="btn-link mt-2 reg-how-to">Thanks for your awesome response! For those who were unable to register, try again next time</a> */}
               {/* <a href="https://bit.ly/aisa-pdf" target="_blank" class="btn-link mt-2 reg-how-to">How to register ?</a> */}
               <p className="embark mt-2 color-og-2" style={{fontSize:"16px"}}>
