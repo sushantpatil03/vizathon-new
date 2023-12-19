@@ -139,7 +139,8 @@ const Hero = () => {
     </p> */}
     <div className="action-btns mt-2">
                 <a
-                  href="https://bit.ly/register-vizathon"
+                  href="/"
+                  // href="https://bit.ly/register-vizathon"
                   // href="https://learner.vierp.in/events"
                   className="btn"
                   target="_blank"
