@@ -182,9 +182,15 @@ const Hero = () => {
               {/* <a href="https://bit.ly/aisa-pdf" target="_blank" class="btn-link mt-2 reg-how-to">How to register ?</a> */}
 
 
-              {/* <p className="embark mt-2 color-og-2" style={{fontSize:"16px"}}>
+              <p className="embark mt-2 color-og-2" style={{fontSize:"16px"}}>
                 "Event registrations are closed due to max capacity. <br/>Be prepared to join next year!"<br/>Thanks for your mind-blowing response!
-              </p> */}
+
+
+
+
+
+
+   </p>
   </div>
 </section>
 
