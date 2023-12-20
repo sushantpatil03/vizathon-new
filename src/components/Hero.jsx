@@ -140,12 +140,12 @@ const Hero = () => {
     </p> */}
 
 
-    {/* <div className="">
+     <div className="">
       <RegistrationBtn/>
-    </div> */}
+    </div> 
 
 
-    <div className="action-btns mt-2">
+  {/*  <div className="action-btns mt-2">
                 <a
                   // href="#"
                   href="https://bit.ly/register-vizathon"
@@ -168,6 +168,7 @@ const Hero = () => {
 
                 
               </div>
+  */}
     {/* <div className="action-btns mt-2">
                 <a
                   href="https://learner.vierp.in/events"
